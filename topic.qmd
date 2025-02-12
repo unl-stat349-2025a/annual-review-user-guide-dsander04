@@ -1,6 +1,7 @@
 # Topic
 
-Pick some subset of the information covered in your annual review article that you are interested in exploring in more detail. 
+Pick some subset of the information covered in your annual review article that you are interested in exploring in more detail.
 
 Identify the scope of your user guide - what will you cover? Specific software packages? When to use or not to use a specific technique?
 
+I think I would like to create a user-guide on Figure 10. Either taking the data in the article or using my own data (like palmer's penguins), I want to create 20 different plots. One of the plots would be the original, with a noticable pattern in the data. The other 19 would randomize the data color and shape so everything looks scrambled. Then, with all 20 put together, we can see how easy it is to distinguish the original plot from the randomized plots. I would likely use ggplot2 to create the plots. I would start with the first plot to give the audience a feel for the package and ease them into it. Then, I'd use either a function or a loop to create 19 randomized plots, also explaining how to randomize the data. Using a package like "patchwork" I would then randomly combine the 20 graphs together into a 5x4 grid to create the output just like in the article. In the guide I would also likely explain how to change axis dimensions and add titles to the graph. This way, the user-guide viewer would understand how to use ggplot2 for any future projects.
