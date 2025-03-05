@@ -4,20 +4,30 @@
 Here are some questions to guide you through the process of doing a task analysis. You don't have to specifically answer each one of these (and some may not apply), but they should get you started thinking in the right direction. 
 
 What are the prerequisites, for both knowledge and e.g. software setup? 
+- They need to have R installed and hopefully updated just in case. It would be helpful to know basic coding, but since I'm creating the user guide, no experience would be ok. Basic knowledge on graphs would also be helpful. 
 
 What are the basic requirements for any data that the method is used on? 
   - Are missing values allowed? 
+    - I would have any missing/incomplete values removed as that would cause problems with the graphing aspect
   - Should the data be confined within a certain range? 
+    - Nothing in particular that I can think of. The range should of the data should be the range of the graph, unless we have any extreme outliers. Then we can consider dropping those values if they aren't representative of our population.
   - Does the data have to be approximately normally distributed? 
+    - No! Since we're interested in visual inference, we can use any data that can be plotted on a scatterplot.
 
 What are the basic components of the task?
-  - Outline these in a bit more detail
+  - I would probably start by explaining visual inference (including why it is useful and how it would be used)
+  - I would then teach the audience how to install the "nullabor" package and open the library.
+  - I'd then take a dataset (any work, but the annual review data would be nice so I can compare what my graphs look like to theirs). I'd give an in-depth description of what needs to be done in order to create the 20 plots like the display shown in the article. 
+  - An interpretation section is necessary, drawing on information from the annual review article as well as articles cited. 
+  - I can use a second dataset as an example for how this may be used in a business context like you had mentioned. Or I can just give some examples of how it may be used.
+  - I would conclude the user-guide by giving a brief overview of what we did, making sure to give proper credit to any original authors.
 
 
 What decisions does the user need to be prepared to make on the fly?
+  - There's not much I can think of. If they don't have R installed, they'd have to do that before anything else can progress, but I'd want to put a disclaimer in the beginning as well as a link to where they can install it. If there is anything they want to adjust "display-wise" with the graphs, they'd have to do that themselves. 
 
 What questions should the user ask of the "first draft" of the product? What adjustments may need to be made?
-
+  - I think after the first draft, making sure all explanations are clear will be my biggest issue. I'm someone who can explain things in my head well, but it doesn't always translate well into my writing. Is the organization of the guide clear is another good question I would want someone to answer. Finally, "did the code work?" That's probably the biggest issue I'll run into.
 
 ## Additional Guidance 
 

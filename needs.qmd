@@ -1,9 +1,29 @@
 # Needs Assessment {.appendix}
 
 What does someone trying to accomplish your chosen task need help with? 
+- They may need help installing R
+- Installing the nullabor package 
+- Completing the code
+- Understanding how/when to use this package
+- How to interpret the plots
+
 
 What parts are likely to be tricky? 
+- The coding parts, especially if someone's never used R before
+- Interpreting the plots and responses
+
 
 What resources are already available on this topic that may be helpful? Look for e.g. software vignettes, package documentation, papers about software packages, and so on.
 
+https://cran.r-project.org/web/packages/nullabor/vignettes/nullabor.html
+  - This has everything you need to know about nullabor - it's the html version of the vignette. It has multiple examples, sample code, and simple explanations. 
+  
+https://www.rdocumentation.org/packages/nullabor/versions/0.3.12
+  - This site has all of the functions within the nullabor package and more information on them. It may be useful if I get stuck anywhere.
+  
+Dr. Vanderplas would be a great resource if I'm stuck or need help understanding what I need to do or how I need to go about doing it!
 
+```{R}
+vignette(package="nullabor")
+#this doesn't do much that I can tell#
+```
